@@ -9,13 +9,27 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Функции, которые не стоят на месте</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Почему выбирают нас</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Не просто список возможностей — живые, дышащие акценты. Каждая функция адаптируется к движению, контексту и настроению,
-          оживляя продукт с первого взгляда.
+          Только свежее мясо, живой огонь и проверенные маринады.
+          Каждая порция — как будто вы на природе у мангала.
         </p>
+        <div className="flex flex-col gap-3 mb-8">
+          <div className="flex items-center gap-3 text-neutral-700">
+            <span className="text-orange-600 font-bold text-lg">✓</span>
+            <span>Свежее мясо каждый день — без заморозки</span>
+          </div>
+          <div className="flex items-center gap-3 text-neutral-700">
+            <span className="text-orange-600 font-bold text-lg">✓</span>
+            <span>Маринад по домашним рецептам — секрет вкуса</span>
+          </div>
+          <div className="flex items-center gap-3 text-neutral-700">
+            <span className="text-orange-600 font-bold text-lg">✓</span>
+            <span>Доставка горячим в течение 45 минут</span>
+          </div>
+        </div>
         <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
-          Подробнее
+          Посмотреть меню
         </button>
       </div>
     </div>
