@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "name": "POST заказ",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "name": "Иван",
+        "phone": "+79001234567",
+        "meat_type": "Свинина",
+        "portions": 2,
+        "comment": ""
+      },
+      "expectedStatus": 200,
+      "expectedBody": { "success": true },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
